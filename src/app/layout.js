@@ -1,7 +1,10 @@
 
-import Footer from '@/components/components/Footer'
-import Hero from '@/components/components/Hero'
-import Navbar from '@/components/components/Navbar'
+import Footer from '@/components/Footer'
+import Hero from '@/components/Hero'
+import Login from '@/components/Login'
+import Navbar from '@/components/Navbar'
+import Prompt from '@/components/Prompt'
+import Team from '@/components/Team'
 import './globals.css'
 
 export default function RootLayout({ children }) {
@@ -17,7 +20,9 @@ export default function RootLayout({ children }) {
         {children}
         <Navbar />
         <Hero />
-
+        <Team />
+        <Login />
+        <Prompt />
         <Footer />
       </body>
     </html>
